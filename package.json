@@ -2,7 +2,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development",
-    "format": "prettier --write \"src/**/*.js\""
+    "format": "prettier --write \"src/**/*.js\"",
+    "eslint-fix": "eslint --fix \"src/**/*.js\""
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
@@ -10,11 +11,15 @@
     "@babel/preset-react": "^7.14.5",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
+    "css-loader": "^6.3.0",
     "eslint": "^7.32.0",
     "eslint-config-react": "^1.1.7",
     "eslint-loader": "^4.0.2",
     "eslint-plugin-react": "^7.26.1",
+    "less": "^4.1.2",
+    "less-loader": "^10.0.1",
     "prettier": "2.4.1",
+    "style-loader": "^3.3.0",
     "webpack": "^5.57.1",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.3.1"
